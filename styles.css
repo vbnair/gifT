@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    background: linear-gradient(#c5302e, #ffd78a);
+    color: antiquewhite;
+    margin: 0;
+}
+
+/* Header section */
+
+#base-img {
+    width: 300px;
+    border-radius: 100%;
+    border: 3px solid #ffd78a;
+    margin-bottom: 10px;
+}
+
+.qtOne {
+background: #ffd78a;
+padding: 5px 10px ;
+border-radius: 5px;
+margin: 5px 0 10px;
+}
+
+#header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.qtOne:hover{
+    background-color: #c5302e;
+}
+
+h1, h2 {
+    text-shadow: 0 0 1px black;
+}
+
+/* Gif Section */
+
+.gif-sec {
+    margin-top: 30px;
+}
+
+.gif-title{
+    margin-bottom: 10px;
+}
+
+.gif-img {
+    margin: 20px auto;
+    max-width: 450px;
+    height: 450px;
+    border: 5px solid #ffd78a;
+    background-image: url("/images/secret-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+
+#gif-img-one:hover {
+    background-image: url("/images/dream.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+#gif-img-two:hover {
+    background-image: url("/images/believe.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gif-img-three:hover {
+    background-image: url("/images/stayP.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Footer Section */
+
+#footer {
+    font-style: italic;
+    padding: 10px ;
+    margin: 0;
+    background-size: 100%;
+    background-image: linear-gradient(to right, #ff5858, #ffc8c8)
+    
+}
+
+a {
+    color: white;
+}
